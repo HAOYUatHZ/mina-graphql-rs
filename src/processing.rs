@@ -402,3 +402,10 @@ pub async fn verify_enough_payments(
 
     Ok(payments_diffs)
 }
+
+pub async fn get_epoch_blocks_winners_from_explorer(
+    epoch: i64,
+    public_key: &str,
+) -> Result<()> {
+    Ok(())
+}
